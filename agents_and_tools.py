@@ -21,7 +21,7 @@ def print_something():
 #일반적인 의도 파악 및 메시지를 작성
 llm = ChatOpenAI(
     model = 'gpt-4o-mini', 
-    api_key = 'OPENAI_API_KEY,
+    api_key = 'OPENAI_API_KEY',
     temperature= 0.3,
     model_kwargs={'response_format' : {'type':'json_object'}})
 
